@@ -1,7 +1,14 @@
 A basic script to convert a song in 4/4 to 3/4. This script is useful for people who like to waltz.
 
 This is an extremely simple script that stretches the 1st and 4th beat and makes the 2nd and 3rd beat twice as fast as the 1st and 4th beat. There are probably other ways to convert a song to 3/4 such as cutting out out the 2nd beat entirely. I welcome any feedback.  
-
 Large parts of this script are based on Tristan's swinger.py. My original intention for this script was to play around with the Echo Nest API, exercise my python scripting abilities, and create a simple way to convert a song to 3/4. There's a lot of room for this project to grow. 
+
+BASIC INSTALLATION STEPS
+1. Get an API Key: http://developer.echonest.com/
+2. Install the python client library for Echo Nest: http://code.google.com/p/pyechonest/
+3. Add the API key to the client library. Follow instructions listed on the webpage on step 2.
+3. Run "python waltzer.py [song file]" to convert song
+
+Note: For Ubuntu users, you may need to install an mp3 encoder such as LAME: http://lame.sourceforge.net/ or ffmpeg: http://ffmpeg.org/. For other operating systems, I am unsure what you will need to install, but if you email me what you had to do, I can add them to this readme.
 
 yarun.luon@gmail.com
