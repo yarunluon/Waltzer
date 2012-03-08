@@ -6,7 +6,8 @@ waltzer.py
 
 Convert your song into a waltz. Only works for songs in 4/4 time
 Created by Yarun Luon
-Code based on swinger.py by Tristan Jehan which can be found here:
+
+Large parts of the implementation are from swinger.py by Tristan Jehan, which can be found here:
 http://code.google.com/p/echo-nest-remix/source/browse/trunk/examples/swinger/swinger.py
 
 MIT License
